@@ -1,0 +1,25 @@
+/* ==============================
+BASE
+( 1382 and up )
+============================== */
+
+/* = RESPONSIVE DISPLAY HELPERS = */
+.ui-larger-screen,
+.ui-larger-screen.and-down,
+.ui-medium-screen.and-down,
+.ui-large-screen.and-down { display: none !important; }
+.ui-small-screen.and-up,
+.ui-medium-screen.and-up,
+.ui-large-screen.and-up,
+.ui-larger-screen.and-up,
+.ui-largest-screen { display: inherit !important; }
+th.ui-small-screen.and-up,
+th.ui-medium-screen.and-up,
+th.ui-large-screen.and-up,
+th.ui-larger-screen.and-up,
+th.ui-largest-screen,
+td.ui-small-screen.and-up,
+td.ui-medium-screen.and-up,
+td.ui-large-screen.and-up,
+td.ui-larger-screen.and-up,
+td.ui-largest-screen { display: table-cell !important; }

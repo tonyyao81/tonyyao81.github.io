@@ -1,0 +1,176 @@
+/* ==============================
+COLOR PALETTE
+============================== */
+// VARIABLES ====================
+$darker-gray		: #222222;
+$dark-gray 			: #444444;
+$gray 				: #777777;
+$light-gray 		: #dddddd;
+$lighter-gray 		: #f5f5f5;
+$ep-green			: #7a9900;
+$ep-light-green		: tint($ep-green, 75%);
+$ep-neon-green		: #b3de0a;
+//$ep-dark-green	: #5d7203;
+$ep-dark-green		: shade($ep-green, 25%);
+$ep-red				: #e23921;
+$ep-light-red		: tint($ep-red, 75%);
+$ep-dark-red		: shade($ep-red, 25%);
+$ep-orange			: #f16a22;
+$ep-light-orange	: tint($ep-orange, 75%);
+$ep-dark-orange		: shade($ep-orange, 25%);
+$ep-purple			: #3c4f9d;
+$ep-light-purple	: tint($ep-purple, 75%);
+$ep-dark-purple		: shade($ep-purple, 25%);
+$ep-blue			: #006dcc;
+$ep-light-blue		: tint($ep-blue, 75%);
+$ep-dark-blue		: shade($ep-blue, 25%);
+
+/* ===== LIGHT GRAY #DDDDDD ===== */
+.txt-light-gray { color: $light-gray; }
+.bg-light-gray { background-color: $light-gray; }
+.border-light-gray,
+.ui-btn.gradient-light-gray { border-color: $light-gray; }
+
+/* ===== DARK GRAY #444444 ===== */
+.txt-dark-gray,
+.ui-btn.gradient-light-gray { color: $dark-gray; }
+.bg-dark-gray,
+.ui-btn.color-dark-gray { background-color: $dark-gray; }
+.border-dark-gray,
+.ui-btn.gradient-dark-gray { border-color: $dark-gray; }
+
+/* ===== DARKER GRAY #222222 ===== */
+.txt-darker-gray { color: $darker-gray; }
+.bg-darker-gray { background-color: $darker-gray; }
+.border-darker-gray,
+.ui-btn.color-dark-gray { border-color: $darker-gray; }
+
+/* ===== EP GREEN #7a9900 ===== */
+.txt-green { color: $ep-green; }
+.bg-green,
+.ui-btn.color-green,
+.ui-btn-success,
+.ui-label-success,
+.ui-badge-success { background-color: $ep-green; }
+.border-green,
+.ui-alert.bg-light-green { border-color: $ep-green; }
+
+/* ===== EP LIGHT GREEN #eaf2cc ===== */
+.txt-light-green { color: $ep-light-green; }
+.bg-light-green { background-color: $ep-light-green; }
+.border-light-green { border-color: $ep-light-green; }
+
+/* ===== EP NEON GREEN #b3de0a ===== */
+.txt-neon-green { color: $ep-neon-green; }
+.bg-neon-green { background-color: $ep-neon-green; }
+.border-neon-green { border-color: $ep-neon-green; }
+
+/* ===== EP DARK GREEN #5d7203 ===== */
+.txt-dark-green,
+.ui-alert.bg-light-green { color: $ep-dark-green; }
+.bg-dark-green { background-color: $ep-dark-green; }
+.border-dark-green,
+.ui-btn.color-green,
+.ui-btn.gradient-green,
+.ui-btn-success { border-color: $ep-dark-green; }
+
+/* ===== EP RED #e23921 ===== */
+.txt-red { color: $ep-red; }
+.bg-red,
+.ui-btn.color-red,
+.ui-btn-alert,
+.ui-label-alert,
+.ui-badge-alert { background-color: $ep-red; }
+.border-red,
+.ui-alert.bg-light-red { border-color: $ep-red; }
+
+/* ===== EP LIGHT RED #ffd0c9 ===== */
+.txt-light-red { color: $ep-light-red; }
+.bg-light-red { background-color: $ep-light-red; }
+.border-light-red { border-color: $ep-light-red; }
+
+/* ===== EP DARK RED #b32916 ===== */
+.txt-dark-red,
+.ui-alert.bg-light-red { color: $ep-dark-red; }
+.bg-dark-red { background-color: $ep-dark-red; }
+.border-dark-red,
+.ui-btn.color-red,
+.ui-btn.gradient-red,
+.ui-btn-alert { border-color: $ep-dark-red; }
+
+/* ===== EP ORANGE #f16a22 ===== */
+.txt-orange { color: $ep-orange; }
+.bg-orange,
+.ui-btn.color-orange { background-color: $ep-orange; }
+.border-orange,
+.ui-alert.bg-light-orange { border-color: $ep-orange; }
+
+/* ===== EP LIGHT ORANGE #fddbc9 ===== */
+.txt-light-orange { color: $ep-light-orange; }
+.bg-light-orange { background-color: $ep-light-orange; }
+.border-light-orange { border-color: $ep-light-orange; }
+
+/* ===== EP DARK ORANGE #b54c15 ===== */
+.txt-dark-orange,
+.ui-alert.bg-light-orange { color: $ep-dark-orange; }
+.bg-dark-orange { background-color: $ep-dark-orange; }
+.border-dark-orange,
+.ui-btn.color-orange,
+.ui-btn.gradient-orange { border-color: $ep-dark-orange; }
+
+/* ===== EP PURPLE #3c4f9d ===== */
+.txt-purple { color: $ep-purple; }
+.bg-purple,
+.ui-btn.color-purple { background-color: $ep-purple; }
+.border-purple,
+.ui-alert.bg-light-purple { border-color: $ep-purple; }
+
+/* ===== EP LIGHT PURPLE #d0daff ===== */
+.txt-light-purple { color: $ep-light-purple; }
+.bg-light-purple { background-color: $ep-light-purple; }
+.border-light-purple { border-color: $ep-light-purple; }
+
+/* ===== EP DARK PURPLE #223376 ===== */
+.txt-dark-purple,
+.ui-alert.bg-light-purple { color: $ep-dark-purple; }
+.bg-dark-purple { background-color: $ep-dark-purple; }
+.border-dark-purple,
+.ui-btn.color-purple,
+.ui-btn.gradient-purple { border-color: $ep-dark-purple; }
+
+/* ===== EP BLUE #006dcc ===== */
+.txt-blue { color: $ep-blue; }
+.bg-blue,
+.ui-btn.color-blue { background-color: $ep-blue; }
+.border-blue,
+.ui-alert.bg-light-blue { border-color: $ep-blue; }
+
+/* ===== EP LIGHT BLUE #d4ebff ===== */
+.txt-light-blue { color: $ep-light-blue; }
+.bg-light-blue { background-color: $ep-light-blue; }
+.border-light-blue { border-color: $ep-light-blue; }
+
+/* ===== EP DARK BLUE #025ba9 ===== */
+.txt-dark-blue,
+.ui-alert.bg-light-blue { color: $ep-dark-blue; }
+.bg-dark-blue { background-color: $ep-dark-blue; }
+.border-dark-blue,
+.ui-btn.color-blue,
+.ui-btn.gradient-blue { border-color: $ep-dark-blue; }
+
+
+/* ===== GRADIENTS ===== */
+/* = GRAY = */
+.gradient-light-gray { @include linear-gradient(#fff, #ddd, $fallback: #ddd); }
+/* = DARK GRAY = */
+.gradient-dark-gray { @include linear-gradient(#666, #333, $fallback: #444); }
+/* = GREEN = */
+.gradient-green { @include linear-gradient(#7a9900, #5d7203); }
+/* = RED = */
+.gradient-red { @include linear-gradient(#e23921, #c02f1a); }
+/* = ORANGE = */
+.gradient-orange { @include linear-gradient(#f16a22, #c5561a); }
+/* = PURPLE = */
+.gradient-purple { @include linear-gradient(#3c4f9d, #223376); }
+/* = BLUE = */
+.gradient-blue { @include linear-gradient(#006dcc, #025ba9); }

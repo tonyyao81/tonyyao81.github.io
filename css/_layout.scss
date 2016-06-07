@@ -1,0 +1,116 @@
+/* ==============================
+LAYOUT & GRID
+============================== */
+
+.container {
+	position: relative;
+	margin: 0 auto;
+}
+.row {
+	width: 100%;
+}
+body.non-fluid .container,
+.row-container { margin: 0 auto; }
+[class*="col-"] {
+	min-height: 1px;
+	display: block; 
+	position: relative;
+}
+body,
+#wrapper { position: relative; }
+/* Apply clearfix to grid items */
+#wrapper,
+.container,
+.row,
+.row-container,
+[class*="col-"] { @include clearfix; }
+
+/* "SHRINKING" COLUMNS (DEFAULT) */
+.mini-grid [class*="col-"] { margin-left: 1.61291%; float: left; }
+.mini-grid .col-1 { width: 6.85483%; }
+.mini-grid .col-2 { width: 15.32258% }
+.mini-grid .col-3 { width: 23.79032%; }
+.mini-grid .col-4 { width: 32.25806%; }
+.mini-grid .col-5 { width: 40.7258%; }
+.mini-grid .col-6 { width: 49.19354%; }
+.mini-grid .col-7 { width: 57.66129%; }
+.mini-grid .col-8 { width: 66.12903%; }
+.mini-grid .col-9 { width: 74.59677%; }
+.mini-grid .col-10 { width: 83.06451%; }
+.mini-grid .col-11 { width: 91.53225%; }
+.mini-grid .col-12 { width: 100%; }
+.mini-grid .col-12,
+.row.mini-grid [class*="col-"]:first-child,
+.row.no-margin.mini-grid [class*="col-"],
+.row.mini-grid [class*="pull-"] { margin-left: 0; }
+
+/* COLUMNS WITHOUT MARGIN */
+.row.no-margin.mini-grid .col-1 { width: 8.33333333333%; }
+.row.no-margin.mini-grid .col-2 { width: 16.6666666667%; }
+.row.no-margin.mini-grid .col-3 { width: 25%; }
+.row.no-margin.mini-grid .col-4 { width: 33.3333333333%; }
+.row.no-margin.mini-grid .col-5 { width: 41.6666666667%; }
+.row.no-margin.mini-grid .col-6 { width: 50%; }
+.row.no-margin.mini-grid .col-7 { width: 58.3333333333%; }
+.row.no-margin.mini-grid .col-8 { width: 66.6666666667%; }
+.row.no-margin.mini-grid .col-9 { width: 75%; }
+.row.no-margin.mini-grid .col-10 { width: 83.3333333333%; }
+.row.no-margin.mini-grid .col-11 { width: 91.6666666667%; }
+
+/* CENTERED COLUMN */
+[class*="col-"].centered,
+.row.no-margin [class*="col-"].centered,
+.row [class*="col-"]:first-child.centered { 
+	margin-left: auto !important;
+	margin-right: auto !important; 
+	float: none; 
+}
+
+/* OFFSETS */
+.mini-grid .offset-1 { margin-left: 10.08065%; }
+.mini-grid .offset-2 { margin-left: 18.5484%; }
+.mini-grid .offset-3 { margin-left: 27.01614%; }
+.mini-grid .offset-4 { margin-left: 35.48388%; }
+.mini-grid .offset-5 { margin-left: 43.95162%; }
+.mini-grid .offset-6 { margin-left: 52.41936%; }
+.mini-grid .offset-7 { margin-left: 60.88711%; }
+.mini-grid .offset-8 { margin-left: 69.35485%; }
+.mini-grid .offset-9 { margin-left: 77.82259%; }
+.mini-grid .offset-10 { margin-left: 86.29033%; }
+.mini-grid .offset-11 { margin-left: 94.75807%; }
+.row.mini-grid .offset-1:first-child { margin-left: 8.46774%; }
+.row.mini-grid .offset-2:first-child { margin-left: 16.93549%; }
+.row.mini-grid .offset-3:first-child { margin-left: 25.40323%; }
+.row.mini-grid .offset-4:first-child { margin-left: 33.87097%; }
+.row.mini-grid .offset-5:first-child { margin-left: 42.33871%; }
+.row.mini-grid .offset-6:first-child { margin-left: 50.80645%; }
+.row.mini-grid .offset-7:first-child { margin-left: 59.2742%; }
+.row.mini-grid .offset-8:first-child { margin-left: 67.74194%; }
+.row.mini-grid .offset-9:first-child { margin-left: 76.20968%; }
+.row.mini-grid .offset-10:first-child { margin-left: 84.67742%; }
+.row.mini-grid .offset-11:first-child { margin-left: 93.14516%; }
+
+/* SOURCE ORDERING */
+.mini-grid .push-1 { left: 8.46774%; }
+.mini-grid .push-2 { left: 16.93549%; }
+.mini-grid .push-3 { left: 25.40323%; }
+.mini-grid .push-4 { left: 33.87097%; }
+.mini-grid .push-5 { left: 42.33871%; }
+.mini-grid .push-6 { left: 50.80645%; }
+.mini-grid .push-7 { left: 59.2742%; }
+.mini-grid .push-8 { left: 67.74194%; }
+.mini-grid .push-9 { left: 76.20968%; }
+.mini-grid .push-10 { left: 84.67742%; }
+.mini-grid .push-11 { left: 93.14516%; }
+
+.mini-grid .pull-1 { right: 6.85483%; }
+.mini-grid .pull-2 { right: 15.32258%; }
+.mini-grid .pull-3 { right: 23.79032%; }
+.mini-grid .pull-4 { right: 32.25806%; }
+.mini-grid .pull-5 { right: 40.7258%; }
+.mini-grid .pull-6 { right: 49.19354%; }
+.mini-grid .pull-7 { right: 57.66129%; }
+.mini-grid .pull-8 { right: 66.12903%; }
+.mini-grid .pull-9 { right: 74.59677%; }
+.mini-grid .pull-10 { right: 83.06451%; }
+.mini-grid .pull-11 { right: 91.53225%; }
