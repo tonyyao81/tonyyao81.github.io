@@ -72,3 +72,17 @@ body {
     display: block;
     padding-left: 18px;
 }
+
+#top-nav-bar ul li>a:hover {
+    color: #fff;
+}
+
+.nav-bar a:hover {
+      color: #fff; }
+
+/*#top-nav-bar ul li>a {
+    -webkit-transition: 200ms color ease-in-out;
+    -moz-transition: 200ms color ease-in-out;
+    -o-transition: 200ms color ease-in-out;
+    transition: 200ms color ease-in-out
+}*/
